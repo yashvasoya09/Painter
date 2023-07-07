@@ -9,7 +9,7 @@ void main() {
         debugShowCheckedModeBanner: false,
 
         routes: {
-          "/":(p0) => DrawingPad_Screen()
+          "/":(p0) => Drawingscreen()
         },
       ),
     ),
