@@ -1,3 +1,4 @@
+import 'package:drawing_board/screen/drawingPad_Screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -5,7 +6,7 @@ class DrawingController extends GetxController {
 
   Rx<Color> selColor = Colors.amber.obs;
 
-  List<Color> colorList = [
+  RxList<Color> colorList = <Color>[
     Colors.amber,
     Colors.pinkAccent,
     Colors.redAccent,
@@ -14,7 +15,12 @@ class DrawingController extends GetxController {
     Colors.red,
     Colors.brown,
     Colors.cyan
-  ];
+  ].obs;
+
+  var pickcolor = Colors.purple.obs;
+  RxDouble slider=0.0.obs;
+  var currentcolor = Colors.cyan.obs;
+  RxList<Drawingmodal> points = <Drawingmodal>[].obs;
 
 }
 
