@@ -1,4 +1,3 @@
-import 'dart:ffi';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -9,7 +8,7 @@ class Drawingcontroller extends GetxController {
 
   var pickcolor = Color(0xff000000).obs;
 
-  RxDouble slider = 3.0.obs;
+  RxDouble strokeWidth = 3.0.obs;
 
   var currentcolor = Color(0xff000000).obs;
 

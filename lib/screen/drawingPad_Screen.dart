@@ -36,7 +36,7 @@ class _DrawingscreenState extends State<Drawingscreen> {
                         Paint()
                           ..color = controller.currentcolor.value
                           ..strokeCap = StrokeCap.round
-                          ..strokeWidth = controller.slider.value
+                          ..strokeWidth = controller.strokeWidth.value
                           ..isAntiAlias = true,
                         renderBox!.globalToLocal(details.globalPosition)));
                   });
@@ -54,7 +54,7 @@ class _DrawingscreenState extends State<Drawingscreen> {
                         Paint()
                           ..color = controller.currentcolor.value
                           ..strokeCap = StrokeCap.round
-                          ..strokeWidth = controller.slider.value
+                          ..strokeWidth = controller.strokeWidth.value
                           ..isAntiAlias = true,
                         renderBox!.globalToLocal(details.globalPosition)));
                   });
@@ -94,14 +94,14 @@ class _DrawingscreenState extends State<Drawingscreen> {
                         height: 3.h,
                         width: 90.w,
                         child: Obx(
-                              () => SfSlider(
+                              () => Slider(
                             min: 2,
                             activeColor: controller.currentcolor.value,
                             inactiveColor: controller.currentcolor.value,
                             max: 30,
-                            value: controller.slider.value,
+                            value: controller.strokeWidth.value,
                             onChanged: (value) {
-                              controller.slider.value = value;
+                              controller.strokeWidth.value = value;
                             },
                           ),
                         ),
