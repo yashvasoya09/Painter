@@ -1,16 +1,14 @@
 # drawing_board
+Painting Board Using Custom Paint Class
 
-A new Flutter project.
+<p>
+  https://github.com/VivekTailor19/drawing_board/assets/119835214/ca540a3b-cc5f-4691-aae4-46940eaec5c9
+<img src = "https://github.com/VivekTailor19/drawing_board/assets/119835214/4dd62faa-8656-46dc-a7c8-5a38ba0e359b" height="50%" width="30%">
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+  
+</p>
